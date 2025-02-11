@@ -1,7 +1,39 @@
-.container {
+
+#btn {
     display: flex;
-    flex-wrap: wrap;
-    border: solid blue 10px;
-    height: 960px;
-    width: 900px;
-    }
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.grid-container {
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+.square {
+    border: 1px dashed white;
+    
+}
+
+.hov-square{
+    background-color: blue;
+}
+.hov-square1{
+    background-color: red;
+}
