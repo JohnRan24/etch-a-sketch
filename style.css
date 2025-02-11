@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid blue 10px;
+    height: 960px;
+    width: 900px;
+    }
